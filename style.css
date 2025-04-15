@@ -1,0 +1,89 @@
+/* General body and page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Input field styling */
+#input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  outline: none;
+}
+
+/* Button styling */
+.btn {
+  padding: 8px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Hover effect for the button */
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Suggested topics styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #2980b9;
+}
+
+/* News content container */
+.cont {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Article styling */
+.cont h3,
+.cont h4 {
+  margin: 5px 0;
+  color: #2c3e50;
+}
+
+.cont p {
+  margin-bottom: 15px;
+  color: #555;
+  font-size: 1rem;
+}
